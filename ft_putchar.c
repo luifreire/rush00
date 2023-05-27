@@ -10,11 +10,15 @@
 
 #include <stdio.h>
 
-int main () {
+void main () {
+
+    int fd;
     
     void ft_putchar(char z);
     
     write(1, &z, 1);
 
-    return(0);
+fd = open("Documents/42trabalhos/rush00/ft_putchar.c", O_RDONLY)
+
+    close(fd);
 }
