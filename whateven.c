@@ -22,11 +22,11 @@ void main ()
 
 int fd;
 
-char buffer[1024] = "This text is added. This text is added.";
+char buffer[42] = "a trick is something";
 
 fd= open("Home", O_RDONLY);
 
-write(1, &buffer, 1024);
+write(1, &buffer, 42);
 
 close(fd);
 

@@ -1,26 +1,34 @@
 /**eu ACHO que esse deve ser 
  * SÓ colocar o caracter?
  * não sei 
- * 
- * 
- * 
- * 
- * 
  */
+
+#include <stdlib.h>
 
 #include <stdio.h>
 
-void ft_putchar (char z) {
+#include <unistd.h>
 
-    int fd
+#include <sys/types.h>
+
+#include <sys/stat.h>
+
+#include <fcntl.h>
+
+#include <string.h>
+
+void main () 
+
+{
+
+    int fd;
+
+    char example[1] = "z";
     
-    int open(char "Home/remoterush/ex000/ft_putchar.c", int O_RDONLY);
+    fd = open("Home/remoterush/ex000/ft_putchar.c", O_RDONLY);
 
-    char only[1] = "z";
-
-    open("Home/remoterush/ex000/ft_putchar.c", O_RDONLY);
-    
-    write(1, &only, 1);
+    write(1, &example, 1);
 
     close(fd);
+
 }
