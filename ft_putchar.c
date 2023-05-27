@@ -10,15 +10,17 @@
 
 #include <stdio.h>
 
-void main () {
+void ft_putchar (char z) {
 
-    int fd;
+    int fd
     
-    void ft_putchar(char z);
-    
-    write(1, &z, 1);
+    int open(char "Home/remoterush/ex000/ft_putchar.c", int O_RDONLY);
 
-fd = open("Documents/42trabalhos/rush00/ft_putchar.c", O_RDONLY)
+    char only[1] = "z";
+
+    open("Home/remoterush/ex000/ft_putchar.c", O_RDONLY);
+    
+    write(1, &only, 1);
 
     close(fd);
 }
