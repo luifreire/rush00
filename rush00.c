@@ -6,32 +6,49 @@
  * função com 2 variáveis do tipo int, nomes x e y 
  */
  
- #include <stdio.h>
+ #include <stdlib.h>
 
- void main()
+#include <stdio.h>
+
+#include <unistd.h>
+
+#include <sys/types.h>
+
+#include <sys/stat.h>
+
+#include <fcntl.h>
+
+#include <string.h>
+
+char i;
+
+char o;
+
+ void main ()
+
  {
     int fd();
 
-    Char l[i] = "l"*i;
+    char l[i] = "l";
 
-    Char o[j] = "o"*j;
+    char o[j] = "o";
     
-    Char pula[i] = "\n"*i;
+    char pula[i] = "\n";
 
-        Fd[] = open("Documentos/42trabalhos/rush.00/rush00.c", O_RDONLY);
+        fd = open("Documentos/42trabalhos/rush.00/rush00.c", O_RDONLY);
 
-        for (int i = 0; i < 5; i++)
+        while (i< 5) ()
         {
             for (int j = 0; j < 3; j++)
             {
 
-            write(i, &l, i)
+            write(i, &l, i);
     
-            write(j, &o, j)
+            write(j, &o, j);
             }
-            write(i, &\n, i);
+            write(i, &pula, i);
         }
 
-    close(fd[]);
+    close(fd);
     
  }

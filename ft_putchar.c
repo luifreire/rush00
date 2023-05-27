@@ -17,17 +17,16 @@
 
 #include <string.h>
 
-void main () 
+void main ()
 
 {
-
     int fd;
 
-    char example[1] = "z";
+    char example[2] = "z\n";
     
     fd = open("Home/remoterush/ex000/ft_putchar.c", O_RDONLY);
 
-    write(1, &example, 1);
+    write(1, &example, 2);
 
     close(fd);
 
